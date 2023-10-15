@@ -1,0 +1,36 @@
+html,
+body {
+	height: 100%;
+	font-size: 1px;
+	font-family: var(--font-family);
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+	max-width: var(--containerWidth);
+	margin: 0 auto;
+}
+
+.btn {
+	color: #FFF;
+	font-style: normal;
+	font-weight: 700;
+	background-color: var(--purple);
+	border-radius: 100px;
+	border: none;
+	cursor: pointer;
+	transition: all .3 ease;
+}
